@@ -1,54 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Styled Table</title>
     <link rel="stylesheet" href="playlist.css">
 </head>
+
 <body>
     <h2 class="header-style">My Favorite Songs</h2>
-<table class="custom-table">
-    <thead>
-        <tr class="header-style">
-            <th class="col-name">Song Name</th>
-            <th class="col-tags">Tags</th>
-            <th class="col-video">Video</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr class="highlight-row">
-            <td>Learn Web Dev</td>
-            <td>Education, Web</td>
-            <td>
-                <!-- YouTube Iframe -->
-                <iframe width="320" height="180" 
-                    src="https://www.youtube.com/embed/qz0aGYrrlhU" 
-                    frameborder="0" allowfullscreen>
-                </iframe>
-            </td>
-        </tr>
-        <tr>
-            <td>מזה שמה בשמיים</td>
-            <td>Music, Hebrew</td>
-            <td>
-                <iframe width="320" height="180" 
-                    src="https://www.youtube.com/embed/yoe_f-YYHnQ?si=ShGOoq80KKjxDcFD" 
-                    frameborder="0" allowfullscreen>
-                </iframe>
-            </td>
-        </tr>
-        <tr>
-            <td>React for Beginners</td>
-            <td>Education, React</td>
-            <td>
-                <iframe width="320" height="180" 
-                    src="https://www.youtube.com/embed/SqcY0GlETPk" 
-                    frameborder="0" allowfullscreen>
-                </iframe>
-            </td>
-        </tr>
-    </tbody>
-</table>
+    <table class="custom-table">
+        <thead>
+            <tr class="header-style">
+                <th class="col-name">Song Name</th>
+                <th class="col-tags">Tags</th>
+                <th class="col-video">Video</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="highlight-row">
+                <td>
+                    <a href="https://www.youtube.com/watch?v=qz0aGYrrlhU" target="_blank" class="song-link">
+                        Learn Web Dev
+                    </a>
+                </td>
+                <td>Education, Web</td>
+                <td>
+                    <iframe width="320" height="180" src="https://www.youtube.com/embed/qz0aGYrrlhU" frameborder="0"
+                        allowfullscreen>
+                    </iframe>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://www.youtube.com/watch?v=yoe_f-YYHnQ" target="_blank" class="song-link">
+                        מזה שמה בשמיים
+                    </a>
+                </td>
+                <td>Music, Hebrew</td>
+                <td>
+                    <iframe width="320" height="180" src="https://www.youtube.com/embed/yoe_f-YYHnQ" frameborder="0"
+                        allowfullscreen>
+                    </iframe>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://www.youtube.com/watch?v=SqcY0GlETPk" target="_blank" class="song-link">
+                        React for Beginners
+                    </a>
+                </td>
+                <td>Education, React</td>
+                <td>
+                    <iframe width="320" height="180" src="https://www.youtube.com/embed/SqcY0GlETPk" frameborder="0"
+                        allowfullscreen>
+                    </iframe>
+                </td>
+            </tr>
+        </tbody>
+    </table>
 </body>
+
 </html>

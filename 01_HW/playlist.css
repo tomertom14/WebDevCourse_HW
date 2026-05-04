@@ -56,3 +56,12 @@ iframe {
     color: darkblue;
     font-weight: bold;
 }
+
+.song-link {
+    text-decoration: none; /* Optional: removes underline */
+    color: inherit;       /* Keeps the original text color */
+}
+
+.song-link:hover {
+    color: red;           /* Changes color when hovering */
+}

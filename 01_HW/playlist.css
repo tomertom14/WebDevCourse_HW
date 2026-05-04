@@ -40,3 +40,19 @@ body {
 iframe {
     max-width: 100%;
 }
+
+.header-style {
+    background-color: #0078d7;
+    color: white;
+    text-align: center;
+    width: 90%;
+    margin: 20px auto; 
+    box-sizing: border-box;
+}
+
+.highlight-row td {
+    background-color: lightskyblue;
+    font-size: 20px;
+    color: darkblue;
+    font-weight: bold;
+}

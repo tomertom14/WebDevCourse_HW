@@ -1,0 +1,26 @@
+/* Style for audio players inside the table */
+audio {
+    width: 100%;
+    height: 45px;
+    border-radius: 8px;
+    border: 2px solid #28a745; /* Green border like in your image */
+}
+
+/* Style for song covers */
+table img {
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+}
+
+/* Styling the download links */
+a[download] {
+    color: blue;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a[download]:hover {
+    color: darkblue;
+}

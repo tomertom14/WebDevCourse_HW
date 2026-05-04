@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio List</title>
+    <link rel="stylesheet" href="playlist.css">
+</head>
+<body>
+    <h2 class="header-style">My Audio Collection</h2>
+    
+    <table class="custom-table">
+        <thead>
+            <tr class="header-style">
+                <th>Cover</th>
+                <th>Title</th>
+                <th>Artist</th>
+                <th>Year</th>
+                <th style="width: 40%;">Play</th>
+                <th>Download</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="AudioFiles/john_lennon.jpg" width="80" alt="Imagine"></td>
+                <td>Imagine</td>
+                <td>John Lennon</td>
+                <td>1971</td>
+                <td>
+                    <audio controls>
+                        <source src="AudioFiles/John_Lennon_Imagine.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+                <td>
+                    <a href="AudioFiles/John_Lennon_Imagine.mp3" download>Download</a>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="AudioFiles/Bohemian_Rhapsody_img.jpg" width="80" alt="Bohemian Rhapsody"></td>
+                <td>Bohemian Rhapsody</td>
+                <td>Queen</td>
+                <td>1975</td>
+                <td>
+                    <audio controls>
+                        <source src="AudioFiles/Queen_Bohemian_Rhapsody.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+                <td>
+                    <a href="AudioFiles/Queen_Bohemian_Rhapsody.mp3" download>Download</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
